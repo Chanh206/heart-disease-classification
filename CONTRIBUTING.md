@@ -24,3 +24,15 @@ main
 ├── feature/model-training
 ├── feature/evaluation
 └── feature/report
+---
+
+# Repository Structure
+
+The repository is organized as follows:
+
+```text
+data/               # raw and processed datasets
+notebooks/          # Jupyter notebooks for experiments
+src/                # reusable Python scripts
+reports/            # generated figures and outputs
+models/             # trained machine learning models
