@@ -219,6 +219,7 @@ __marimo__/
 
 __pycache__/
 .ipynb_checkpoints/
+DS/
 *.pkl
 *.zip
 .~lock*
