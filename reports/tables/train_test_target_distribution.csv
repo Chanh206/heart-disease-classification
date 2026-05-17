@@ -1,0 +1,3 @@
+split,n_samples,disease_count,disease_percent
+train,242,111,45.87
+test,61,28,45.9
