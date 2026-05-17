@@ -1,0 +1,49 @@
+{
+  "raw_data_path": "/home/dthanh/Documents/Personal_Doc/ThS/HP2/PPNCKH/Project/heart-disease-classification/data/raw/heart.csv",
+  "n_rows": 303,
+  "n_original_columns": 14,
+  "numeric_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "n_processed_features": 28,
+  "target_column": "target",
+  "original_target_column": "target_original",
+  "target_distribution": {
+    "0": 164,
+    "1": 139
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "split_strategy": "stratified by binary target",
+  "missing_values_after_cleaning": {
+    "age": 0,
+    "sex": 0,
+    "cp": 0,
+    "trestbps": 0,
+    "chol": 0,
+    "fbs": 0,
+    "restecg": 0,
+    "thalach": 0,
+    "exang": 0,
+    "oldpeak": 0,
+    "slope": 0,
+    "ca": 0,
+    "thal": 0,
+    "target": 0,
+    "target_original": 0
+  }
+}
